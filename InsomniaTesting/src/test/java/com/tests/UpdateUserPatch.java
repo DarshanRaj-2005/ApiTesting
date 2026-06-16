@@ -16,7 +16,7 @@ public class UpdateUserPatch {
 	public void updateUserPatch() {
 		Map<String,Object> values = new HashMap<>();
 		values.put("category", "TCS");
-		Response res = RestAssured.given().contentType(ContentType.JSON).body(values).when().patch("http://localhost:3000/trainees/d4DXgNyr-8s");
+		Response res = RestAssured.given().contentType(ContentType.JSON).body(values).when().patch("http://localhost:3000/trainees/D75KTTDNw7A");
 		Assert.assertEquals(res.getStatusCode(),200);
 		
 		String category = res.jsonPath().getString("category");

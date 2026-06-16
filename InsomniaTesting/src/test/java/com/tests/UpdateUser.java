@@ -19,7 +19,7 @@ public class UpdateUser {
 		values.put("category", "Wipro");
 		values.put("id", "6");
 		
-		Response res = RestAssured.given().contentType(ContentType.JSON).body(values).when().put("http://localhost:3000/trainees/d4DXgNyr-8s");
+		Response res = RestAssured.given().contentType(ContentType.JSON).body(values).when().put("http://localhost:3000/trainees/D75KTTDNw7A");
 		Assert.assertEquals(res.getStatusCode(),200);
 		
 		String category = res.jsonPath().getString("category");

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-16T19:11:12 IST" name="Default suite" finished-at="2026-06-16T19:11:14 IST" duration-ms="1494">
+  <suite started-at="2026-06-16T20:29:51 IST" name="Default suite" finished-at="2026-06-16T20:29:53 IST" duration-ms="2127">
     <groups>
     </groups>
-    <test started-at="2026-06-16T19:11:12 IST" name="Default test" finished-at="2026-06-16T19:11:14 IST" duration-ms="1494">
-      <class name="com.tests.UsingOptions">
-        <test-method signature="Options()[pri:0, instance:com.tests.UsingOptions@647e447]" started-at="2026-06-16T19:11:12 IST" name="Options" finished-at="2026-06-16T19:11:14 IST" duration-ms="1441" status="PASS">
+    <test started-at="2026-06-16T20:29:51 IST" name="Default test" finished-at="2026-06-16T20:29:53 IST" duration-ms="2127">
+      <class name="com.tests.UpdateUserPatch">
+        <test-method signature="updateUserPatch()[pri:0, instance:com.tests.UpdateUserPatch@647e447]" started-at="2026-06-16T20:29:51 IST" name="updateUserPatch" finished-at="2026-06-16T20:29:53 IST" duration-ms="2092" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Options -->
-      </class> <!-- com.tests.UsingOptions -->
+        </test-method> <!-- updateUserPatch -->
+      </class> <!-- com.tests.UpdateUserPatch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
