@@ -9,7 +9,7 @@ public class DeleteUser {
 	
 	@Test
 	public void deleteUserPatch() {
-		Response res = RestAssured.when().delete("http://localhost:3000/trainees/d4DXgNyr-8s");
+		Response res = RestAssured.when().delete("http://localhost:3000/trainees/jTsxnqT5XmY");
 		Assert.assertEquals(res.getStatusCode(),200);
 	}
 	
